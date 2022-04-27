@@ -11,6 +11,7 @@ OOP. The project is a console application which primarily consists of two pieces
 The project has used the windows api of socket programming - `Winsock2` library. Therefore, the project can only be compiled to windows machines that support this library. Also, make sure to link the object file with winsock modules.
 
 The networking layer also uses the local host `127.0.0.1` ip as default. You can change it in the [Server.cpp](./Server/Headers/Server.cpp)
+
 ## Networking layer
 
 The networking layer consists of those classes and functions which
@@ -25,7 +26,7 @@ The networking is carried out with the help of Winsock (2.2) programming - windo
 
 The `Server` - which uses the `Thread` class - and `Client` class.
 
-[networking - classes](./images/network_classes.jpg)
+![networking - classes](./images/network_classes.jpg)
 
 ### Usage
 
@@ -83,7 +84,7 @@ int main()
 
 ### Working
 
-[networking - working](./images/network_working.jpg)
+![networking - working](./images/network_working.jpg)
 
 ## Management layer
 
@@ -110,6 +111,10 @@ This layer uses the networking layer to implement a networked shopping app.
 ### Classes
 
 ![management - classes](./images/manage_classes.jpg)
+
+## Documentation
+
+For a detailed explanation of everything, refer to this [report.](./REPORT.pdf)
 
 ## Last Updated
 
