@@ -11,20 +11,21 @@ OOP. The project is a console application which primarily consists of two pieces
 The project has used the windows api of socket programming - `Winsock2` library. Therefore, the project can only be compiled to windows machines that support this library. Also, make sure to link the object file with winsock modules.
 
 The networking layer also uses the local host `127.0.0.1` ip as default. You can change it in the [Server.cpp](./Server/Headers/Server.cpp)
-
 ## Networking layer
 
-The networking layer consists of those classes and functions which are responsible for establishing a connection between a client and the remote sever.
+The networking layer consists of those classes and functions which
+are responsible for establishing a connection between a client and
+the remote sever.
 
 ### Technology
 
 The networking is carried out with the help of Winsock (2.2) programming - windows APIs of socket programming.
 
-### Classes
+### 
 
 The `Server` - which uses the `Thread` class - and `Client` class.
 
-[networking - classes](./images/networking/classes.jpg)
+[networking - classes](./images/network_classes.jpg)
 
 ### Usage
 
@@ -82,8 +83,33 @@ int main()
 
 ### Working
 
-[networking - working](./images/networking/working.jpg)
+[networking - working](./images/network_working.jpg)
 
+## Management layer
+
+This layer uses the networking layer to implement a networked shopping app.
+
+### Features
+
+- Customers can sign-up or login.
+- Customers can buy items.
+- Before confirming, the bill is displayed. Then, they have the option to confirm, cancel, add or remove anything.
+- Customers can write complaints.
+- Any employee (or admin) can answer the complain.
+- Employees and admin will avail 20% discount on purchases.
+- Employee accounts are made by the admin.
+- Customers and employees alike can view their profile.
+- Automatic reorder is placed if goods fall below a certain level.
+- Admin can view record of customers & employees.
+- Admin can fire any employees and ban any customers.
+- Admin can view the inventory level and manually order goods.
+- Admin can also manually update balance.
+- Admin can search for customers and employees.
+- Admin also sets the reorder level, amount & unit price.
+
+### Classes
+
+![management - classes](./images/manage_classes.jpg)
 
 ## Last Updated
 
