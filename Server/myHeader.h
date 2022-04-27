@@ -1,0 +1,8 @@
+#include "Headers/Server.cpp"
+#include "Headers/Thread.cpp"
+#include "Headers/Person.cpp"
+#include "Headers/Customer.cpp"
+#include "Headers/Employee.cpp"
+#include "Headers/Admin.cpp"
+#include "Headers/Complaint_Base.cpp"
+#include "Headers/Complaint_E.cpp"
