@@ -1,16 +1,19 @@
 {
     "configurations": [
-        {
-            "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [],
-            "compilerPath": "C:/MinGW/bin/gcc.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
-        }
+      {
+        "name": "Win32",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "C:/Users/ompat/OneDrive/Desktop/GIT/online-shopping-system/Server/",
+          "C:/Users/ompat/OneDrive/Desktop/GIT/online-shopping-system/Common/"
+        ],
+        "defines": [],
+        "compilerPath": "C:/MinGW/bin/gcc.exe",  // Path to your GCC compiler
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "gcc-x64"  // Correct IntelliSense mode for GCC
+      }
     ],
     "version": 4
-}
+  }
+  
